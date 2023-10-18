@@ -16,7 +16,6 @@ nav
 
 .First_logo
 { 
-  
   display: flex;
   padding-top: 1px;
 
@@ -55,14 +54,6 @@ nav
   color:#000;
   font-size: 12px;
 }
-
-v a :hover 
-{
-  background-color: #0067b8;
- 
-}
-
-
 
 .fff 
 {
@@ -139,7 +130,7 @@ margin-top: -5px;
 {
   padding-left: 20px;
   padding-top: 90px;
- background-color: #0067b8;
+ background-color:white;
  
 }
 
@@ -172,8 +163,7 @@ margin-top: -5px;
   padding-top: 10px;
   padding-bottom: 90px;
   padding-left: 115px;
-  background-color: aqua;
-display: flex;
+  display: flex;
 
 }
 
@@ -193,12 +183,62 @@ display: flex;
 .main_one
 {
 display: flex;
+justify-content: space-between;
+padding-bottom: 40px;
+
+}
+
+.the_table 
+{
+  padding-left: 30px;
+}
+
+.the_table p
+{
+  padding-top: 14px;
+}
+
+.the_table_two
+{
+  padding-left: 20px;
+}
+
+.the_table_three
+{
+  padding-left: 20px;
+}
+
+.the_table_four
+{
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.the_button button
+{
+  background-color:#ffb900;
+  color:black;
+  font-size: bold;
+  padding: 3px 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer; 
 }
 
 .list_one
 {
-  background-image: url(image/Highlight-
-  Test-Surface-Pro-9-Platinum-Attract_
-  VP4-1260x600.webp);
-background-repeat: no-repeat;
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.white_box
+{
+  position: absolute;
+  background-color: black;
+  color:#ffb900;
+  padding-left: 20px;
+  padding-right: 20px;
 }
